@@ -1,0 +1,2 @@
+example=set()
+dir(example)
