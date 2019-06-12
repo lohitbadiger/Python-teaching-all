@@ -6,3 +6,31 @@ for box in boxes[1:4]:
 
     else:
         print('just this',box)
+
+
+for val in "string":
+    if val == "i":
+        break
+    print(val)
+
+print("The end")
+
+# s
+# t
+# r
+# The end
+ 
+
+for val in "string":
+    if val == "i":
+        continue
+    print(val)
+
+print("The end")
+
+# s
+# t
+# r
+# n
+# g
+# The end
