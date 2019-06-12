@@ -14,4 +14,18 @@ while hate<love:
 
     hate+=1
     
-    
+
+# Python program to illustrate 
+# while loop 
+count = 0
+while (count < 3):     
+    count = count + 1
+    print("Hello Geek") 
+
+
+count = 0
+while (count < 3):     
+    count = count + 1
+    print("Hello Geek") 
+else: 
+    print("In thos we can end the block Else Block") 
