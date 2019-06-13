@@ -1,8 +1,10 @@
+
+# arguments passing by user by input 
 def greet(name,time):
     print(f'good morning{name}, hope your greate at this {time}')
 
 
-x = input('enter your name')
-y = input('enter the time')
+xyz = input('enter your name')
+yzw = input('enter the time')
 
-greet(x, y)
+greet(xyz, yzw)

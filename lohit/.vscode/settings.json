@@ -2,7 +2,14 @@
     "python.testing.pyTestArgs": [
         "."
     ],
-    "python.testing.unittestEnabled": false,
+    "python.testing.unittestEnabled": true,
     "python.testing.nosetestsEnabled": false,
-    "python.testing.pyTestEnabled": true
+    "python.testing.pyTestEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test.py"
+    ]
 }

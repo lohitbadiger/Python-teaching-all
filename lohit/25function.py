@@ -7,7 +7,7 @@ def volume(area,length):
 
 
 radius=int(input('enter the value for the radius'))
-length=int(input('enter the vlaue'))
+length=int(input('enter the value'))
 
 
 volume(area(radius), length)
