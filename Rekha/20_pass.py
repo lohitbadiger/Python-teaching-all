@@ -8,4 +8,4 @@ for i in list:
         flag = 1;  
     if flag==1:  
         print("\nCame out of pass\n");  
-        flag=0;  
+        # flag=0;  

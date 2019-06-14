@@ -13,4 +13,4 @@ emp12 =Employee('loh', 'hubli')
 print(Employee.fullname(emp12))
 
 print(emp1.fullname())
-print(emp12.fullname())
+print(emp12.fullname())  

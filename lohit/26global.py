@@ -8,3 +8,5 @@ def lohit_lohit():
 
 lohit_lohit()
 print('global name is', name)
+print('global name is', name)
+
