@@ -5,8 +5,8 @@ class Employee:
         self.address = address
 
 
-emp1 = Employee('rekha', 'hubli')
-emp12 = Employee('loh', 'hgbli')
+emp1 = Employee('new person from', 'hubli')
+emp12 = Employee('This is very bad', 'City')
 
 print(emp1)
 print(emp12)

@@ -9,27 +9,26 @@
 # g) Day of the month
 # h) Day of week
 
-import time
 import datetime
+import time
+
+# a
+print('Current date and time is :' ,datetime.datetime.now())
+
+# b
+print('Current Year', datetime.date.today())
+print('Current Year', datetime.date.today().strftime("%y"))
+print('Current Year', datetime.date.today().strftime("%Y"))
+print('Current Year', datetime.date.today().strftime("%D"))
+print('Current Year', datetime.date.today().strftime("%d"))
+print('Current Year', datetime.date.today().strftime("%m"))
+print('Current Year', datetime.date.today().strftime("%B"))
 
 
-print('_________________a  Current date and time____________')
-print('Current date and time', datetime.datetime.now())
 
-print('_________________Current year____________')
-print('Current Year', datetime.date.today().strftime('%y'))
-print('Current Year', datetime.date.today().strftime('%Y'))
+# d) Week number of the year
+print('Number of weeks passed this year till now', datetime.date.today().strftime('%W'))
 
 
-print('_________________Month of year____________')
-
-print('Current Year', datetime.date.today().strftime('%b'))
-print('Current Year', datetime.date.today().strftime('%B'))
-
-print('_________________Week number of the year___________')
-print('Week number of the year', datetime.date.today().strftime('%w'))
-
-print('Weekday of the week', datetime.date.today().strftime('%W'))
-
-
-print('')
+# E weekday of the week
+print('Weekday of the week: ', datetime.date.today().

@@ -1,7 +1,7 @@
 def person(dictionary):
     belts =list(dictionary.values())
     for belt in belts:
-        num = belts.count(belt)
+        num = belts.(belt)
         print(f'there are {num} {belt} belts ')
 
 
